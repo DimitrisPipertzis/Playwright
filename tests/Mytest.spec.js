@@ -93,7 +93,7 @@ if (!orderFound) {
  await page.pause();
 });
 
-test('new test', async ({ page }) => {
+test('Testing the products orders' , async ({ page }) => {
   const email = 'dimitrispiper1993@gmail.com';
 
   await page.goto('https://rahulshettyacademy.com/client/');
